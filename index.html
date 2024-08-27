@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <img class="Logo_alura" src="assets/imagenes/alura.svg" alt="Logo_alura">
+        </div>
+    </header>
+    <main>
+        <div class="main">
+            <div class="lado_izquierdo">
+                <textarea id="ingresartextousuario" class="ingresar_texto_usuario" placeholder="Ingrese el texto aqui"></textarea>
+                <div>
+                    <img src="assets/imagenes/exclamacion.svg" alt="Simbolo_exclamacion">
+                    <span class="mensaje_info_izquierda">Solo letras minúsculas y sin acentos</span>
+                    <div class="lado_izquierdo_botones">
+                        <button id="botonencriptar" class="boton_encriptar">Encriptar</button>
+                        <button id="botondesencriptar" class="boton_desencriptar">Desencriptar</button>    
+                    </div>
+                </div>
+            </div>
+            <div id="ladoderecho" class="lado_derecho">
+                <img id="muñecolupa" class="muñeco_lupa" src="assets/imagenes/muñeco.svg" alt="muñeco">
+                    <textarea id="mensajefinal" class="mensaje_final" placeholder="Ningún mensaje fue encontrado"></textarea>
+                    <p id="mensajeinfoderecha" class="mensaje_info_derecha">Ingresa el texto que desees encriptar o desencripar.</p>
+                <button id="botoncopiar" class="boton_copiar oculto">Copiar</button>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+                <img class="etiqueta" src="/assets/imagenes/klipartz.com.png" alt="etiqueta">
+                <div class="footer_izquierdo_nombre">
+                    <p>Brayan Stiven Barrios Lemus</p>
+                    <p class="footer_create">Create by :</p>
+                </div>
+                <div class="icons">
+                    <a href=""> <img class="github" src="/assets/imagenes/github.svg" alt="Github"> </a>
+                    <a href=""> <img class="linkedin" src="/assets/imagenes/linkedin.svg" alt="linkedin"> </a>
+                </div>
+    </footer>
+    <script src="assets/Js/script.js"></script>
+</body>
+</html>
